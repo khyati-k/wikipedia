@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Wikipedia viewer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="1st">
+                <div class="row col-xs-offset-4 col-xs-4 well cent" id="box">
+                    <form>
+                        <div class="form-group">
+                            <label for="searchbox" class="sr-only"></label>
+                            <input type="text" class="form-control" id="search" placeholder="Type here to search in Wikipedia">
+
+                        </div>
+
+                        <button type="button" class="btn btn-default" id="but"><i class="fa fa-search"></i></button>
+
+                        <a class="btn btn-default hidden-xs" alt="Click for a random article" href="https://en.wikipedia.org/wiki/Special:Random"
+                            target="_blank">Surprise Me!</a>
+                        <a class="btn btn-default visible-xs" alt="Click for a random article" href="https://en.wikipedia.org/wiki/Special:Random"
+                            target="_blank"><i class="fa fa-random"></i></a></form>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <!--after search-->
+        <div id="2nd">
+
+            <div class="row">
+
+                <div class="col-sm-3 well res">
+                </div>
+                <div class="col-sm-3 col-xs-offset-1 well res">
+                </div>
+                <div class="col-sm-3 col-xs-offset-1 well res">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-3 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-3 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-3 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 well res">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
